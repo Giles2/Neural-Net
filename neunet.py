@@ -45,7 +45,7 @@ y = np.array([[0],
 nn = NeuralNetwork(x, y)
 
 # Training loop
-epochs = 10000  # Number of training iterations
+epochs = 100000  # Number of training iterations
 for i in range(epochs):
     nn.feedforward()
     nn.backprop()
